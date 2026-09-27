@@ -1,8 +1,8 @@
-# MEEZAK Privacy v2
-GitHub Pages-ready privacy policy + account deletion resource.
+# MEEZAK public policy pages
 
-Stable paths after publishing:
-- /meezak/privacy/
-- /meezak/delete-account/
+This repository hosts the public MEEZAK privacy and account deletion information on GitHub Pages.
 
-Before public launch, replace the provisional contact/deletion wording with the actual privacy contact, deletion workflow, SDK list/data practices, and ensure exact consistency with Google Play Data Safety and Target Audience declarations.
+- Privacy: https://meezak-sa.github.io/meezak/privacy/
+- Account deletion: https://meezak-sa.github.io/meezak/delete-account/
+
+The deletion page describes the in-app path and a request by email outside the app. The email inbox and Google Play Console entries require live verification before treating those external gates as complete.
