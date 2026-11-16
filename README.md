@@ -18,7 +18,7 @@ There are **no** API calls, database connections, analytics trackers, authentica
 - `assets/screen-account-v5.png` — `meezak-banner-v105qa-20261105/docs/ui-evidence/UI-006/after.png`
 - `assets/screen-errors-v5.png` — `meezak-banner-v105qa-20261105/docs/ui-evidence/UI-007/after.png`
 - `assets/screen-question-v5.png` — `Pictures/meezak_home_selected.png` (observed under the V5 era; release build provenance of this particular screenshot has **not** been independently verified)
-- `assets/meezak-logo.png` — original Android app logo `app/src/main/res/drawable-nodpi/meezak_logo_original.png`
+- `assets/meezak-logo.png` — original Android app logo `app/src/main/res/drawable-nodpi/meezak_logo_original.png`, losslessly saved as a new PNG after high-quality downscaling to 256×256 for faster page loading
 
 Captured sample accounts and UI percentages are demo/testing data; they do not represent real learners' progress. Teacher and guardian feature cards are **abstract illustrations**, labeled as such, not forged screenshots.
 
