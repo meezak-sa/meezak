@@ -28,3 +28,19 @@
 .showcase-image[href]{display:block;cursor:zoom-in;transition:box-shadow .2s ease,transform .2s ease}
 .showcase-image[href]:hover{box-shadow:0 20px 60px rgba(7,39,90,.33);transform:translateY(-3px)}
 .showcase-image[href]:focus-visible{outline:3px solid #00d9f4;outline-offset:5px}
+
+/* Keep genuine Android captures fully inside the phone bezel.
+   New screenshots are 1080x1920 (9:16), not the old forced 9:20 crop. */
+.phone img,
+.device-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 31px;
+}
+@media (max-width: 600px) {
+  .phone img { border-radius: 23px; }
+}
